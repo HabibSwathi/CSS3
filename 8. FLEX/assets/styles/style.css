@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Flex Direction  */
+.flex-container1 {
+    padding: 30px;
+    background-color: #0c0c0c0c;
+
+    /* flex properties for parent  */
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    /*multi line (if space is not available for next items displays in next line)*/
+    /* flex-wrap: nowrap; single line  */
+
+    /* column-gap: 30px;  */
+    /* row-gap: 30px; */
+    gap: 30px;
+}
+
+.flex-item {
+    padding: 30px;
+    background-color: darkgoldenrod;
+    min-width: 200px;
+}
