@@ -92,3 +92,26 @@
     gap: 30px;
     justify-content: space-evenly;
 }
+
+/* p4.html  */
+.flex-container8 {
+    background-color: #0c0c0c;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    /* align-items: start; */
+    /* align-items: center; */
+    /* align-items: end; */
+
+    /* align-items: flex-start; */
+    align-items: flex-end;
+}
+
+.flex-item2 {
+    width: 100px;
+    height: 100px;
+    background-color: darkturquoise;
+    padding: 10px;
+}

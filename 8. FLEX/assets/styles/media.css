@@ -9,4 +9,8 @@
         width: 100%;
         background-color: darkorange;
     }
+
+    .flex-item2 {
+        width: 100%;
+    }
 }
