@@ -32,3 +32,62 @@
     background-color: darkgoldenrod;
     min-width: 200px;
 }
+
+/* p3.html  */
+.flex-container2,
+.flex-container3,
+.flex-container4,
+.flex-container5,
+.flex-container6,
+.flex-container7 {
+    background-color: #0c0c0c;
+    padding: 30px;
+
+    margin-bottom: 30px;
+}
+
+.flex-item1 {
+    width: 50px;
+    height: 50px;
+    background-color: darkolivegreen;
+    padding: 10px;
+    color: #fff;
+}
+
+.flex-container2 {
+    display: flex;
+    gap: 20px;
+    /* justify-content: end; */
+    justify-content: flex-end;
+}
+
+.flex-container3 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.flex-container4 {
+    display: flex;
+    gap: 30px;
+    /* justify-content: start; */
+    justify-content: flex-start;
+}
+
+.flex-container5 {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.flex-container6 {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.flex-container7 {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
