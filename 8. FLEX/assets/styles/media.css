@@ -4,4 +4,9 @@
     .flex-container1 .flex-item {
         width: 100%;
     }
+
+    .flex-item1 {
+        width: 100%;
+        background-color: darkorange;
+    }
 }
