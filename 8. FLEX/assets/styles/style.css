@@ -170,3 +170,45 @@
 .flex-item4 img {
     width: 100%;
 }
+
+/* 8_orderexample.html */
+
+.hero-section {
+    height: 100vh;
+    background-color: darkorange;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+}
+
+.hero-section .left {
+
+    flex: 1;
+    /* height: 60%; */
+
+}
+
+.hero-section .left img {
+    width: 100%;
+    /* background-size: cover; */
+}
+
+.hero-section .right {
+    flex: 1;
+    background-color: rgb(245, 179, 98);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.hero-section .right h1 {
+    font-size: 2rem;
+    color: rgb(76, 49, 29);
+    line-height: 4;
+}
+
+.hero-section .right p {
+    font-size: 1.2rem;
+}
